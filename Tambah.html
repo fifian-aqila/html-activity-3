@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tambah</title>
+    <style>
+        .container{
+            width: 400px;
+            margin: auto;
+            margin-top: 30px;
+        }
+        .form{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .form-input{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .btn{
+            margin-top: 10px;
+            text-align: right;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+            <h1>TAMBAH BARANG</h1>
+        <div class="form">
+            <div  class="form-input">
+                <label for="nama">Nama</label>
+                <input type="text" id="nama" name="nama">
+            </div>
+            <div class="form-input">
+                <label for="kode">Kode</label>
+                <input type="text" id="kode" name="kode">
+            </div>
+            <div class="form-input">
+                <label for="masuk">Tanggal Masuk</label>
+                <input type="date" id="masuk" name="masuk">
+            </div>
+            <div class="form-input">
+                <label for="expired">Tanggal Expired</label>
+                <input type="date" id="expired" name="expired">
+            </div>
+            <div class="form-input">
+                <label for="stok">Jumalah Stok</label>
+                <input type="text" id="stok" name="stok">
+            </div>
+            <div class="form-input">
+                <label for="beli">Harga Beli</label>
+                <input type="text" id="beli" name="beli">
+            </div>
+        </div >
+        <div class="btn">
+            <button>Simpan</button>
+        </div>
+        
+    </div>
+
+</body>
+</html>
